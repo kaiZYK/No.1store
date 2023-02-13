@@ -1,0 +1,332 @@
+/* 版心1200px */
+
+/* 详情地址部分 */
+.address {
+  width: 1200px;
+  height: 30px;
+  margin: 20px auto;
+}
+.address > ul {
+  width: 100%;
+  height: 100%;
+}
+.address > ul > li {
+  float: left;
+}
+.address > ul > li > span {
+  margin: 0px 5px;
+}
+.address > ul > li > a,
+.address > ul > li > span {
+  font-size: 12px;
+  color: #555555;
+}
+.address > ul > li > a:hover {
+  color: #ff3c3c;
+}
+.address > ul > li:last-of-type {
+  width: auto;
+  height: 25px;
+  padding: 0px 10px;
+  border: 1px dashed #ff4e00;
+  box-sizing: border-box;
+  text-align: center;
+}
+.address > ul > li:last-of-type > a {
+  color: #ff5c42;
+  font-style: italic;
+}
+
+/* 商品分类部分 */
+.category {
+  width: 1200px;
+  height: 210px;
+  margin: 0 auto;
+  border: 2px solid #cccccc;
+}
+.category > dl {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #cccccc;
+}
+.category > dl > dt {
+  width: 110px;
+  height: 45px;
+  float: left;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #555555;
+}
+.category > dl > dd {
+  width: auto;
+  height: auto;
+  padding: 10px 12px 3px 12px;
+  float: left;
+}
+.category > dl > dd > a {
+  color: #888888;
+  font-size: 12px;
+}
+.category > dl > dd > a:hover {
+  color: #ff4e00;
+}
+.category > dl:nth-of-type(1) > dd:nth-of-type(1) > a,
+.category > dl:nth-of-type(2) > dd:nth-of-type(2) > a {
+  color: #ff4e00;
+}
+.category > dl:nth-of-type(1) > dt {
+  height: 72px;
+}
+
+/* 商品列表部分 */
+.product {
+  width: 1200px;
+  height: auto;
+  margin: 20px auto;
+  overflow: hidden;
+}
+/* 浏览历史侧边栏部分 */
+.product > aside {
+  width: 210px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+/* 侧边栏头部 */
+.aside-head {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  box-sizing: border-box;
+  background-image: url(../images/h_t.gif);
+  background-repeat: no-repeat;
+  background-position: 8px 14px;
+}
+.aside-head > p {
+  color: #ff4e00;
+  float: left;
+  margin-left: 10px;
+}
+.aside-head > a {
+  font-size: 14px;
+  color: #888888;
+  float: right;
+}
+/* 侧边栏商品部分 */
+.aside-shop {
+  width: 100%;
+  height: auto;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+.aside-shop > ul {
+  width: 100%;
+  height: 100%;
+}
+.aside-shop > ul > li {
+  width: 100%;
+  height: 250px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+}
+.aside-shop > ul > li > img {
+  width: 180px;
+  margin-top: 10px;
+}
+.aside-shop > ul > li > a {
+  font-size: 14px;
+  color: #555555;
+}
+.aside-shop > ul > li > a:hover {
+  color: #ff4e00;
+}
+.aside-shop > ul > li > p {
+  font-size: 18px;
+  color: #b70504;
+}
+/* 商品展示部分 */
+.product-content {
+  width: 990px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+.product-content-head {
+  width: 100%;
+  height: 40px;
+  padding: 8px 0px;
+  box-sizing: border-box;
+}
+.product-content-head-left {
+  width: auto;
+  height: 100%;
+  float: left;
+}
+.product-content-head-left > a {
+  color: #555555;
+  float: left;
+  display: block;
+  width: 70px;
+  height: 24px;
+  border: 1px solid #cccccc;
+  text-indent: 1em;
+  font-size: 12px;
+  line-height: 24px;
+}
+.product-content-head-left > a:hover,
+.product-content-head-left > a:nth-of-type(3) {
+  background-color: #ff4e00;
+  color: #ffffff;
+}
+
+.product-content-head-left > a:nth-of-type(2),
+.product-content-head-left > a:nth-of-type(3) {
+  position: relative;
+}
+.product-content-head-right {
+  width: auto;
+  height: 100%;
+  float: right;
+  font-size: 12px;
+  color: #555555;
+}
+.price-up,
+.price-down {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.price-up {
+  top: 5px;
+  right: 11px;
+  background-image: url(../images/i_up.gif);
+  background-position: 0px 0px;
+}
+.price-down {
+  bottom: 1px;
+  right: 11px;
+  background-image: url(../images/i_down.gif);
+  background-position: 0px 0px;
+}
+.product-content-main {
+  width: 100%;
+  height: auto;
+  padding: 25px 5px;
+  box-sizing: border-box;
+  border-top: 1px solid #eaeaea;
+}
+.product-content-main > ul {
+  width: 100%;
+  height: auto;
+}
+.product-content-main > ul > li {
+  width: 230px;
+  height: 320px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.product-content-main > ul > li:hover {
+  box-shadow: 0px 0px 5px #ccc;
+}
+.product-content-main > ul > li > a > img {
+  width: 210px;
+  height: 186px;
+}
+.product-content-main > ul > li > a > p {
+  width: 100%;
+  font-size: 18px;
+  color: #ff4e00;
+}
+.product-content-main > ul > li > a:nth-of-type(3) {
+  font-size: 14px;
+  color: #555555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  margin: 10px 0px 15px 0px;
+}
+.product-content-main > ul > li > a:nth-of-type(3):hover {
+  color: #fc4d00;
+}
+.collect,
+.shopping-cart {
+  display: block;
+  float: left;
+  height: 30px;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+  line-height: 30px;
+  text-indent: 3em;
+  background-repeat: no-repeat;
+}
+.collect {
+  width: 70px;
+  color: #888888;
+  background-image: url(../images/heart.png);
+  background-position: 10px 9px;
+}
+.collect:hover {
+  background-image: url(../images/heart_h.png);
+}
+.shopping-cart {
+  width: 130px;
+  color: #ff4e00;
+  background-image: url(../images/cars.png);
+  background-position: 20px 4px;
+  border-left: none;
+}
+.product-content-main > ul > li:hover .shopping-cart {
+  background-image: url(../images/cars_h.png);
+  color: #ffffff;
+  background-color: #ff4e00;
+}
+
+/* 分页部分 */
+.page {
+  width: 1200px;
+  height: 40px;
+  margin: 40px auto 130px auto;
+}
+.page > ul {
+  width: auto;
+  height: 100%;
+  float: right;
+}
+.page > ul > li {
+  width: auto;
+  height: 100%;
+  float: left;
+  margin-right: 15px;
+  box-sizing: border-box;
+}
+.page > ul > li > a {
+  height: 100%;
+  color: #666666;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.page > ul > li:hover a {
+  background-color: #ff4e00;
+  color: #ffffff;
+}
+.page > ul > li:nth-of-type(2) > a {
+  background-color: #ff4e00;
+  color: #ffffff;
+}
+.page > ul > li > span {
+  vertical-align: -10px;
+}

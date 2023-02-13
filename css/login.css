@@ -1,0 +1,147 @@
+/* 版心1200px */
+
+/* 登录主体部分 */
+.login {
+  width: 980px;
+  height: 380px;
+  margin: 30px auto 40px auto;
+}
+.login > div:nth-of-type(1) {
+  width: 510px;
+  height: 100%;
+  float: left;
+}
+.login > div:nth-of-type(1) > img {
+  width: 510px;
+  height: 315px;
+}
+.login > div:nth-of-type(2) {
+  width: 350px;
+  height: 330px;
+  float: right;
+  margin-top: 50px;
+}
+
+.login-top {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+.login-top > p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666;
+  float: left;
+}
+.login-top > a {
+  font-size: 12px;
+  color: #0066cc;
+  font-weight: 600;
+  display: block;
+  float: right;
+}
+.login-top > a:hover {
+  color: #ff6600;
+}
+.login > div:nth-of-type(2) > input:nth-of-type(1),
+.login > div:nth-of-type(2) > input:nth-of-type(2) {
+  width: 100%;
+  box-sizing: border-box;
+  height: 54px;
+  outline: none;
+  margin-top: 10px;
+  border: 2px solid #dedede;
+  font-size: 14px;
+  background-repeat: no-repeat;
+  background-position: 15px 12px;
+  text-indent: 4em;
+}
+
+.login > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-image: url(../images/userHead.png);
+}
+.login > div:nth-of-type(2) > input:nth-of-type(2) {
+  background-image: url(../images/lock.png);
+  margin-bottom: 10px;
+}
+.login-top > p > [type="checkbox"] {
+  vertical-align: middle;
+}
+.login-top-gray {
+  color: #999999 !important;
+  font-weight: normal !important;
+  font-size: 12px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.login > div:nth-of-type(2) > button {
+  width: 100%;
+  height: 52px;
+  border-radius: 3px;
+  background-color: #ff3c3c;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+.login > div:nth-of-type(2) > p {
+  font-size: 12px;
+  color: #666666;
+}
+.login-btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+}
+.login-btn > ul {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+}
+.login-btn > ul > li {
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-btn > ul > li:nth-of-type(1) {
+  background-image: url(../images/qqf.png);
+}
+.login-btn > ul > li:nth-of-type(1):hover {
+  background-image: url(../images/qqt.png);
+}
+.login-btn > ul > li:nth-of-type(2) {
+  background-image: url(../images/wbf.png);
+}
+.login-btn > ul > li:nth-of-type(2):hover {
+  background-image: url(../images/wbt.png);
+}
+.login-btn > ul > li:nth-of-type(3) {
+  background-image: url(../images/zhif.png);
+}
+.login-btn > ul > li:nth-of-type(3):hover {
+  background-image: url(../images/zhit.png);
+}
+.login-btn > ul > li:nth-of-type(4) {
+  background-image: url(../images/wxf.png);
+}
+.login-btn > ul > li:nth-of-type(4):hover {
+  background-image: url(../images/wxt.png);
+}
+.login-btn > p {
+  width: 100px;
+  height: 100%;
+  float: right;
+  font-size: 12px;
+  color: #999999;
+  padding-top: 8px;
+  box-sizing: border-box;
+  background-image: url(../images/loadMore.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: right 10px top 10px;
+}
